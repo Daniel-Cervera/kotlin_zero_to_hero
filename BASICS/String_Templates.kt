@@ -8,4 +8,11 @@
 
 // For example:
     val customers = 10 
-    
+    print ("Ther are $customers customers")
+//THere are 10 customers
+
+    println("There are ${customers + 1}")
+//There are 11 customers 
+
+//You will notice thar there arent any types declared for varibales. Kotlin has inferred the type 
+//itself: Int.
